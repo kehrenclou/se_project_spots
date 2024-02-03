@@ -1,9 +1,10 @@
 .profile {
   display: flex;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1;
   gap: 20px;
   padding: 34px 0 20px;
+  border-bottom:1px solid rgb(33,33,33,0.4);
 }
 
 .profile__avatar {
@@ -18,17 +19,17 @@
   display: flex;
   flex-direction: column;
   max-width: 420px;
+  flex-grow: 1;
 }
 .profile__name {
   font-size: 32px;
-  margin: 0;
-  padding: 0 0 12px;
+  margin: 0 0 12px;
 }
 .profile__about {
   font-size: 16px;
   opacity: 70%;
   padding: 0;
-  margin: 0;
+  margin: 0 0 18px;
   flex-grow: 1;
 }
 .profile__edit {
@@ -43,4 +44,18 @@
   font-size: 16px;
   opacity: 70%;
   margin: 0;
+}
+.profile__button-add{
+  background-color:#212121;
+  height: 52px;
+  padding: 18px 32px;
+  color:#FCF5E5;
+  border-radius: 8px;
+  line-height: 1;
+
+}
+.profile__add-icon{
+  height:12px;
+  width:12px;
+  margin-right: 8px;
 }
