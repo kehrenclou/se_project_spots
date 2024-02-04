@@ -1,13 +1,13 @@
-.block {
+.overflow {
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.block--single {
+.overflow--single {
   white-space: nowrap;
 }
 
-.block--multi {
+.overflow--multi {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
