@@ -38,15 +38,22 @@
   display: flex;
   gap: 8px;
 }
-.profile__edit-icon {
-  fill: #212121;
+
+.profile__button-edit {
+  background-color: transparent;
+  background-image: url("../images/pencil.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 0;
+  color: #212121;
   opacity: 70%;
-}
-.profile__edit-text {
   font-size: 16px;
-  opacity: 70%;
-  margin: 0;
+  border: none;
+  width: 108px;
+  text-align: right;
+  transition: opacity 0.25s ease-in-out;
 }
+
 .profile__button-add {
   background-color: #212121;
   height: 52px;
@@ -54,9 +61,17 @@
   color: #fcf5e5;
   border-radius: 8px;
   line-height: 1;
+  transition: opacity 0.25s ease-in-out;
 }
 .profile__add-icon {
   height: 12px;
   width: 12px;
   margin-right: 8px;
+}
+
+.profile__button-edit:hover {
+  opacity: 100%;
+}
+.profile__button-add:hover {
+  opacity: 80%;
 }
