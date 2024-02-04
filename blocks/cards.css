@@ -29,9 +29,21 @@
   font-weight: 500;
   max-width: 353px;
 }
-.cards__like-icon {
+.cards__button-like {
   height: 20px;
   width: 23px;
+  background-image:url("../images/like_icon_dark.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-color:transparent;
+  border: none;
+  transition:opacity 0.25s ease-in-out;
   align-self: flex-end;
   opacity: 40%;
 }
+
+.cards__button-like:hover{
+  opacity:100%;
+}
+
+
